@@ -1,62 +1,159 @@
-/* Normalisation de ma page REST CSS */
+/* Normalisation de ma page RESET CSS */
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-html, body{
-    font-family: "Open Sans" "sans sérif";
+/* Mise en forme des balises globales*/
+
+body{
+    font-family: 'Open Sans' , sans-serif;
     color: #222;
 }
 
 a{
-    text-decoration:none;
-    color: white;
+    text-decoration: none;
+
 }
 
-
-
-/* HEADER */
+/* Mise en forme du header*/
 
 header{
-    background-color: #333;
-    color: white;
-    padding: 1rem;
+    background: #333;
     overflow: hidden;
 }
 
-.active{
-    background-color: #444;
+header h1 a{
+    color: white;
+
 }
 
-h1{
+header nav ul li a{
+    color: white;
     padding: 1.23rem;
     display: block;
-    padding: 1.23rem;
+    
 }
-
-
 
 header h1 a{
     color: white;
-    float: left;
-    
 }
 
-ul li a:hover{
-    
+header nav ul{
+    list-style: none;
 }
 
-nav ul{
-    list-style-type: none;
-}
-
-nav{
+header nav{
     float: right;
+}
+
+header nav ul li{
+    float: left;
+    padding: 1.23rem;
+}
+
+header h1{
+    float: left;
+    padding: 1.23rem;
+}
+
+/* Première section*/
+
+.part1{
+    background-image: url("./img/frame.jpg");
+    background-size: cover;
+}
+
+.part1 div h2{
+    font-size: 3rem;
+    color: white;
+    padding: 1rem;
+}
+
+.part1 div hr{
+    color: black;
+    height: 0.50rem;
+    width: 5rem;
+    background-color: black;
+    border: none;
+    display: inline-block;
     
 }
 
-nav ul li{
-    display: inline;
+.part1 div p{
+    color: white;
+    padding: 2rem;
+    font-size: 1.20rem;
 }
+
+.part1 div a{
+    background-color: white;
+    border-radius: 4rem;
+    padding: 0.75rem;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+}
+
+.part1 div{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10rem;
+}
+
+
+/* Deuxième section*/
+
+.part2 div h3{
+    font-size: 2rem;
+}
+
+.part2 div{
+    text-align: center;
+}
+
+.cafe{
+    float: left;
+    width: 50%;
+    padding: 8rem;
+}
+
+.horloge{
+    float: right;
+    width: 50%;
+    padding: 8rem;
+}
+
+.part2 p{
+    padding: 1rem;
+}
+
+.part2 i{
+    padding: 1rem;
+}
+
+.part2{
+    overflow: hidden;
+}
+
+/*Bannière*/
+
+.bg2{
+    background-image: url(./img/person-1.jpg);
+    height: 50rem;
+    background-position: 151rem -239ch;
+    
+
+}
+
+/* Troisième section*/
+
+.part3 div{
+    text-align: center;
+    width: 50%;
+    
+}
+
+
